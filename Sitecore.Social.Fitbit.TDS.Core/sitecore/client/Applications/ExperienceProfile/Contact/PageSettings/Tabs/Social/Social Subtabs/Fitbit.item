@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {D7E187FC-DC58-4881-8363-794252CF5553}
+database: core
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/Social/Social Subtabs/Fitbit
+parent: {111AD4D8-5238-45A5-BB57-E7FF105E3E09}
+name: Fitbit
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 6
+
+Fitbit
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1132
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FitbitTabId&amp;IsVisible=0&amp;Text=%7bD7E187FC-DC58-4881-8363-794252CF5553%7d" uid="{6D0E24CC-4899-488A-AFFF-85F105E08EFE}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FitbitTabBorder" uid="{68374156-0183-42FD-8AE0-E3C69804E76A}" />
+    <r id="{FD97BD6A-2C46-4EB9-9F1F-7A2D7249DCC5}" par="Database=core&amp;Id=FitbitLoadOnDemandPanel&amp;ItemId=%7bE8C6D64A-6EE7-4D38-AAF5-D1FC519997F2%7d" ph="FitbitTabBorder.Content" uid="{079138AC-4397-4F7A-A3A5-CD9428FF259E}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=FitbitIndicatorImage&amp;IsVisible=%7bBinding+FitbitLoadOnDemandPanel.isLoaded%7d&amp;Width=60px&amp;Height=60px" ph="FitbitTabBorder.Content" uid="{7EC4D772-60A3-4B86-B6BA-3E40E15D38F2}" />
+    <r ds="{88134D50-FA78-406D-8C52-8286EB12BB25}" id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=FitbitProgressIndicator&amp;AutoShowTimeout=1000&amp;TargetControl=FitbitTabBorder" ph="FitbitTabBorder.Content" uid="{6BB68A06-8A4D-4F8A-9748-421234D31333}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 08e20c9c-49fc-48a6-82dc-2561ddb12abf
+
+----field----
+field: {AEA872FB-AA91-4D1A-B877-3CA6FBBB4FD4}
+name: Header
+key: header
+content-length: 5
+
+$name
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160418T081944Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 13
+
+sitecore\ivan
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+08e20c9c-49fc-48a6-82dc-2561ddb12abf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160418T131246Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 13
+
+sitecore\ivan

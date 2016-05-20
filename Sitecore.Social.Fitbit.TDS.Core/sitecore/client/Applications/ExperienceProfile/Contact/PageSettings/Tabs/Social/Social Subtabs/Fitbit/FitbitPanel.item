@@ -1,0 +1,109 @@
+----item----
+version: 1
+id: {E8C6D64A-6EE7-4D38-AAF5-D1FC519997F2}
+database: core
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/Social/Social Subtabs/Fitbit/FitbitPanel
+parent: {D7E187FC-DC58-4881-8363-794252CF5553}
+name: FitbitPanel
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 11
+
+FitbitPanel
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 6756
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fExperienceProfile%2fContact%2fSocial%2fFitbitTab.js" ph="Page.Body" uid="{918D0937-008A-4257-BF8C-AE45F6B06298}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FitbitTabBorder" ph="Page.Body" uid="{D990B869-4954-4F4A-98F0-7A56886A88D9}" />
+    <r ds="{116B39CD-40B4-409A-B46F-5BFD1722F83F}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=NoFitbitDataPanel&amp;IsVisible=0" ph="FitbitTabBorder.Content" uid="{E87FEB9F-9538-4F98-846C-5B0CEE2BAF2F}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=NoFitbitDataBorder&amp;ContentAlignment=Center&amp;UsePadding=1" ph="NoFitbitDataPanel.Body" uid="{15E5D961-E23C-4FE7-AEC5-8B817DF70991}" />
+    <r ds="{DDFD9F46-A443-4420-8F61-5883669B484D}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=NoFitbitDataText" ph="NoFitbitDataBorder.Content" uid="{6EB9D27C-D7B2-4D24-A039-6DEC8279F35E}" />
+    <r ds="{1FAF9747-68A1-4FD4-9FDE-C8EF77D1186F}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=FitbitDataPanel&amp;IsVisible=0" ph="FitbitTabBorder.Content" uid="{BD2456FE-2D3A-4C48-927C-ECC55EA0AC92}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FitbitDataBorder&amp;UsePadding=0" ph="FitbitDataPanel.Body" uid="{BA0A97FD-6505-40F0-912E-04B6C06C6E83}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=1&amp;Id=FitbitDataRow" ph="FitbitDataBorder.Content" uid="{BBB27B7F-E211-4BA3-A77C-3745A3F22C54}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=FitbitDataLeftColumn&amp;GridColumns=2" ph="FitbitDataRow.Content" uid="{DE653B4C-B904-4DCB-9F9E-DC21BF2D83BB}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FitbitDataAvatarBorder" ph="FitbitDataLeftColumn.Content" uid="{4ECB4155-4A89-4FE4-9272-FD0FD638BB70}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=FitbitDataAvatar" ph="FitbitDataAvatarBorder.Content" uid="{50CBCE9F-21F3-4237-A55B-5DEAC220F33E}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=FitbitDataRightColumn&amp;GridColumns=10" ph="FitbitDataRow.Content" uid="{1E1FE3DD-B7E2-4275-BA5B-E34158D80768}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FitbitDataFullNameBorder" ph="FitbitDataRightColumn.Content" uid="{D239D494-F028-4FEA-986D-534843E48928}" />
+    <r ds="{ECB810B6-DD1E-4800-A31F-8C38C586EB4D}" id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=FitbitDataFullNameLabel" ph="FitbitDataFullNameBorder.Content" uid="{9CABFCC0-EB4D-4694-97AC-13623BD491FB}" />
+    <r ds="{1F61373B-8994-4D4F-8051-D8357F4202F2}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FitbitDataFullNameValue" ph="FitbitDataFullNameBorder.Content" uid="{3D4B146D-C589-49F0-BE5A-6DB131AF887A}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FitbitDataGenderBorder" ph="FitbitDataRightColumn.Content" uid="{FCB649A8-D942-4533-B979-CE1DC609DC2E}" />
+    <r ds="{AC7455E4-6B6C-477C-A6DA-38D0AA420D52}" id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=FitbitDataGenderLabel" ph="FitbitDataGenderBorder.Content" uid="{C658EF76-01C5-41B5-AFDF-D42920DB27A2}" />
+    <r ds="{1F61373B-8994-4D4F-8051-D8357F4202F2}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FitbitDataGenderValue" ph="FitbitDataGenderBorder.Content" uid="{4CCCFF30-C203-49F4-8013-F6422338B698}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FitbitDataLocationBorder" ph="FitbitDataRightColumn.Content" uid="{F3DBA58B-D1DA-4190-BF2C-D3933C37AD0A}" />
+    <r ds="{619FE267-A70A-484C-91AC-6AE00FE6DD7F}" id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=FitbitDataLocationLabel" ph="FitbitDataLocationBorder.Content" uid="{79A3AF2A-4F03-4324-A0B1-3E9A0E3A7B8B}" />
+    <r ds="{1F61373B-8994-4D4F-8051-D8357F4202F2}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FitbitDataCityValue" ph="FitbitDataLocationBorder.Content" uid="{59F8058D-F414-4277-8765-579AA17075E7}" />
+    <r ds="{1F61373B-8994-4D4F-8051-D8357F4202F2}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FitbitDataStateValue" ph="FitbitDataLocationBorder.Content" uid="{D91B08B6-9EC2-4FBD-A9D9-AA94D64E02D5}" />
+    <r ds="{1F61373B-8994-4D4F-8051-D8357F4202F2}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FitbitDataCountryValue" ph="FitbitDataLocationBorder.Content" uid="{499CDE2F-A9BB-40EF-9395-9FD5886CA16E}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FitbitDataHeightBorder" ph="FitbitDataRightColumn.Content" uid="{F9F5B2A7-63A9-4CF4-94FE-8268707DCAFE}" />
+    <r ds="{E4359CAB-9CBE-400E-88FE-183E6F5A6B0D}" id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=FitbitDataHeightLabel" ph="FitbitDataHeightBorder.Content" uid="{9303D763-A19C-4D56-9A33-FE0DF2051A77}" />
+    <r ds="{1F61373B-8994-4D4F-8051-D8357F4202F2}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FitbitDataHeightValue" ph="FitbitDataHeightBorder.Content" uid="{E3900786-5B6F-4D9B-AFA2-D8F2658A5976}" />
+    <r ds="{1F61373B-8994-4D4F-8051-D8357F4202F2}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FitbitDataHeightUnitValue" ph="FitbitDataHeightBorder.Content" uid="{2223F7B1-0F60-422F-9D09-ABAF152CBB2B}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FitbitDataWeightBorder" ph="FitbitDataRightColumn.Content" uid="{395C0D0A-073E-43C9-AF8F-A04C896B7B0E}" />
+    <r ds="{911D8D1E-1C7F-412B-85C0-59384A808B6B}" id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=FitbitDataWeightLabel" ph="FitbitDataWeightBorder.Content" uid="{56CDC7CB-03A8-440F-9622-6625CFBEA356}" />
+    <r ds="{1F61373B-8994-4D4F-8051-D8357F4202F2}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FitbitDataWeightValue" ph="FitbitDataWeightBorder.Content" uid="{26159177-416C-41FB-AA89-00491F598C57}" />
+    <r ds="{1F61373B-8994-4D4F-8051-D8357F4202F2}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FitbitDataWeightUnitValue" ph="FitbitDataWeightBorder.Content" uid="{9D08DBF0-D989-4251-9436-CC4C16D8081D}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FitbitDataAboutMeBorder" ph="FitbitDataRightColumn.Content" uid="{98559F0F-2426-445F-BF91-E0D0109152AA}" />
+    <r ds="{FF87CB58-C5DE-4127-A582-338EF6D85E5F}" id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=FitbitDataAboutMeLabel" ph="FitbitDataAboutMeBorder.Content" uid="{2C3EACC4-3AE2-44FB-9673-149C2FD50C63}" />
+    <r ds="{1F61373B-8994-4D4F-8051-D8357F4202F2}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FitbitDataAboutMeValue" ph="FitbitDataAboutMeBorder.Content" uid="{FAAC24D7-A57E-4737-B9ED-8EA21741BAA2}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 0c7f61f7-80ba-49c3-ba83-0207157c8e28
+
+----field----
+field: {AEA872FB-AA91-4D1A-B877-3CA6FBBB4FD4}
+name: Header
+key: header
+content-length: 11
+
+FitbitPanel
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160418T082048Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 13
+
+sitecore\ivan
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0c7f61f7-80ba-49c3-ba83-0207157c8e28
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160421T114528Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 13
+
+sitecore\ivan

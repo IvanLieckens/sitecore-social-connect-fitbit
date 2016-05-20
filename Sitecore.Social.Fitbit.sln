@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.Social.Fitbit.TDS", "Sitecore.Social.Fitbit.TDS\Sitecore.Social.Fitbit.TDS.scproj", "{40C2084B-CD20-4BF6-ABFE-F3C9260621F4}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.Social.Fitbit.TDS.Core", "Sitecore.Social.Fitbit.TDS.Core\Sitecore.Social.Fitbit.TDS.Core.scproj", "{AD750321-F5C3-4223-8939-7A8D3B739673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Social.Fitbit", "Sitecore.Social.Fitbit\Sitecore.Social.Fitbit.csproj", "{7368770F-86AB-46FD-A7C1-F57AF3B40002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Social.Fitbit.Client.Mvc", "Sitecore.Social.Fitbit.Client.Mvc\Sitecore.Social.Fitbit.Client.Mvc.csproj", "{4A66031D-5461-4991-A1BD-6A8E1D693449}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5078E9BD-4AFD-4278-AA10-21AD5330C743}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Social.Fitbit.Web", "Sitecore.Social.Fitbit.Web\Sitecore.Social.Fitbit.Web.csproj", "{E9C8DFAF-0DC2-4DD0-9D00-6DDC5302FCB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40C2084B-CD20-4BF6-ABFE-F3C9260621F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C2084B-CD20-4BF6-ABFE-F3C9260621F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C2084B-CD20-4BF6-ABFE-F3C9260621F4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{40C2084B-CD20-4BF6-ABFE-F3C9260621F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C2084B-CD20-4BF6-ABFE-F3C9260621F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C2084B-CD20-4BF6-ABFE-F3C9260621F4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AD750321-F5C3-4223-8939-7A8D3B739673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD750321-F5C3-4223-8939-7A8D3B739673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD750321-F5C3-4223-8939-7A8D3B739673}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AD750321-F5C3-4223-8939-7A8D3B739673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD750321-F5C3-4223-8939-7A8D3B739673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD750321-F5C3-4223-8939-7A8D3B739673}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7368770F-86AB-46FD-A7C1-F57AF3B40002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7368770F-86AB-46FD-A7C1-F57AF3B40002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7368770F-86AB-46FD-A7C1-F57AF3B40002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7368770F-86AB-46FD-A7C1-F57AF3B40002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A66031D-5461-4991-A1BD-6A8E1D693449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A66031D-5461-4991-A1BD-6A8E1D693449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A66031D-5461-4991-A1BD-6A8E1D693449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A66031D-5461-4991-A1BD-6A8E1D693449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C8DFAF-0DC2-4DD0-9D00-6DDC5302FCB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C8DFAF-0DC2-4DD0-9D00-6DDC5302FCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C8DFAF-0DC2-4DD0-9D00-6DDC5302FCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C8DFAF-0DC2-4DD0-9D00-6DDC5302FCB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
