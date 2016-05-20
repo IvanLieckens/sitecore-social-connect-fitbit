@@ -72,7 +72,16 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Sitecore.Social.Fitbit.Client.Mvc\Sitecore.Social.Fitbit.Client.Mvc.csproj">
+      <Project>{4a66031d-5461-4991-a1bd-6a8e1d693449}</Project>
+      <Name>Sitecore.Social.Fitbit.Client.Mvc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sitecore.Social.Fitbit\Sitecore.Social.Fitbit.csproj">
+      <Project>{7368770f-86ab-46fd-a7c1-f57af3b40002}</Project>
+      <Name>Sitecore.Social.Fitbit</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Social\Sitecore.Social.Fitbit.config" />
     <Content Include="App_Config\Include\Social\Sitecore.Social.ProfileMapping.Fitbit.config" />
